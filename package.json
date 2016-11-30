@@ -1,0 +1,28 @@
+{
+  "name": "wp-reply-email-notifications-chrome-extension",
+  "version": "2016.12.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack --progress --colors --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yansky/wp-reply-email-notifications-chrome-extension.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Yansky/wp-reply-email-notifications-chrome-extension/issues"
+  },
+  "homepage": "https://github.com/Yansky/wp-reply-email-notifications-chrome-extension#readme",
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-core": "^6.18.2",
+    "babel-loader": "^6.2.8",
+    "babel-plugin-syntax-async-functions": "^6.13.0",
+    "babel-plugin-transform-async-to-generator": "^6.16.0",
+    "copy-webpack-plugin": "^4.0.1",
+    "webpack": "^1.13.3"
+  }
+}

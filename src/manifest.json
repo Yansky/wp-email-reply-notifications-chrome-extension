@@ -1,0 +1,25 @@
+{
+  "name": "MWhirlpool Reply Email Notification Extension",
+  "manifest_version": 2,
+  "version": "0.1",
+  "description": "Emails You When Someone Has Quoted Your Post And Responded To You On The Whirlpool Forums.",
+  "icons": {
+    "128": "extensionIcon.png"
+  },
+  "homepage_url": "https://github.com/Yansky/wp-reply-email-notifications-chrome-extension",
+  "permissions": [
+  ],
+  "incognito": "not_allowed",
+  "background": {
+    "persistent": false,
+    "scripts": ["background.build.js"]
+  },
+  "browser_action": {
+    "default_icon": "extensionIcon.png",
+    "default_title": "Whirlpool Reply Email Notification Extension"
+  },
+  "options_ui": {
+    "page": "options.html",
+    "chrome_style": true
+  }
+}
